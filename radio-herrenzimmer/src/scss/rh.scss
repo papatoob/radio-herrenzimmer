@@ -1,5 +1,10 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 @import "./variables";
+
+/********************************
+* Allgemeines
+********************************/
+
 body {
     background-image: url(/assets/img/linen.jpg);
     background-repeat: repeat;
@@ -12,7 +17,26 @@ body {
     font-size: 18px;
 }
 
+
+/********************************
+* Komponenten
+********************************/
+
 .component {
     display: block;
     width: 100%;
+}
+
+
+/********************************
+* Überschriften
+********************************/
+
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
+    font-family: 'Droid Serif', serif;
 }
