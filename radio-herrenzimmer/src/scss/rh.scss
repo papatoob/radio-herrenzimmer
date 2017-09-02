@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./variables";
+body {
+    background-image: url(/assets/img/linen.jpg);
+    background-repeat: repeat;
+    -webkit-font-smoothing: antialiased;
+    max-width: 100%;
+    line-height: 30px;
+    color: $rh-font-color;
+    font-family: $rh-font-family-sans-serif;
+    font-size: 18px;
+}
