@@ -15,8 +15,8 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
         opacity: 0,
         display: 'none'
       })),
-      transition('showDetails => hideDetails', animate('1000ms ease-out')),
-      transition('hideDetails => showDetails', animate('1000ms ease-in'))
+      transition('showDetails => hideDetails', animate('0ms ease-out')),
+      transition('hideDetails => showDetails', animate('2000ms ease-in'))
     ]),
     trigger('detailsLinkState', [
       state('hideDetails', style({
@@ -27,8 +27,8 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
         opacity: 0,
         display: 'none'
       })),
-      transition('hideDetails => showDetails', animate('1000ms ease-out')),
-      transition('showDetails => hideDetails', animate('1000ms ease-in'))
+      transition('hideDetails => showDetails', animate('0ms ease-out')),
+      transition('showDetails => hideDetails', animate('2000ms ease-in'))
     ])
   ]
 })
