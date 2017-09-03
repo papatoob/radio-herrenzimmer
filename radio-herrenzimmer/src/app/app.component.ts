@@ -24,15 +24,3 @@ export class AppComponent {
 
 }
 
-export class Platform {
-  url: string;
-  title: string;
-  icon: Image;
-}
-
-export class Image {
-  path: string;
-  title?: string = '';
-  alternateText: string;
-}
-

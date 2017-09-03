@@ -2,16 +2,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
-import { PlatformService } from './services/platform.service';
-import { PlatformsComponent } from './components/platforms/platforms.component';
-import { TitleService } from './services/title.service';
-import { TitleComponent } from './components/title/title.component';
+import { PlatformService } from './service/platform.service';
+import { PlatformsComponent } from './component/platforms/platforms.component';
+import { TitleService } from './service/title.service';
+import { TitleComponent } from './component/title/title.component';
+import { ImprintComponent } from './component/imprint/imprint.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlatformsComponent,
-    TitleComponent
+    TitleComponent,
+    ImprintComponent
   ],
   imports: [
     BrowserModule

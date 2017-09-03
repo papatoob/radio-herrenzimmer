@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Image } from '../app.component';
+import { Image } from '../model/image.model';
 
 @Injectable()
 export class TitleService {

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Platform } from '../app.component';
+import { Platform } from '../model/platform.model';
 
 @Injectable()
 export class PlatformService {

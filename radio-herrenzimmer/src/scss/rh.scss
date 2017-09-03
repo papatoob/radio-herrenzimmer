@@ -1,5 +1,6 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "./variables";
+@import "./mixins";
 
 /********************************
 * Allgemeines
@@ -19,8 +20,12 @@ body {
 
 
 /********************************
-* Komponenten
+* Komponenten und Abschnitte
 ********************************/
+
+section {
+    margin-bottom: 40px;
+}
 
 .component {
     display: block;
@@ -39,4 +44,23 @@ body {
 .container h5,
 .container h6 {
     font-family: 'Droid Serif', serif;
+}
+
+
+/********************************
+* Links
+********************************/
+
+a:link,
+a:visited,
+a.hover,
+a.active {
+    color: $rh-link-color;
+    text-decoration: none;
+}
+
+h1 a,
+h1 a:hover {
+    color: white;
+    text-decoration: none;
 }

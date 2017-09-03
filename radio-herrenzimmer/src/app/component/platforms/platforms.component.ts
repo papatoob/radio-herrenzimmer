@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Platform } from '../../app.component';
-import { PlatformService } from '../../services/platform.service';
+import { Platform } from '../../model/platform.model';
+import { PlatformService } from '../../service/platform.service';
 
 @Component({
   selector: 'app-platforms',
