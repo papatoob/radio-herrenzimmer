@@ -7,13 +7,15 @@ import { PlatformsComponent } from './component/platforms/platforms.component';
 import { TitleService } from './service/title.service';
 import { TitleComponent } from './component/title/title.component';
 import { ImprintComponent } from './component/imprint/imprint.component';
+import { IntroComponent } from './component/intro/intro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlatformsComponent,
     TitleComponent,
-    ImprintComponent
+    ImprintComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule
