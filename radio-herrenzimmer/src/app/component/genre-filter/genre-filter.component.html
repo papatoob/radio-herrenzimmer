@@ -1,7 +1,12 @@
 <section class="section-genre-filter">
     <ul class="genre-filter">
-        <li *ngFor="let genre of genres">
-            {{genre.name}}: <input type="checkbox" class="switch" id="{{genre.name}}" name="{{genre.name}}" checked>
+        <li class="onoffswitch" *ngFor="let genre of genres">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+            <label class="onoffswitch-label" for="myonoffswitch">
+              <span class="onoffswitch-inner"></span>
+              <span class="onoffswitch-switch"></span>
+          </label>
         </li>
     </ul>
+
 </section>
