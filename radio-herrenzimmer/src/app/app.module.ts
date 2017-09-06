@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 
 import { GenreService } from './service/genre.service';
+import { MixService } from './service/mix.service';
 import { PlatformService } from './service/platform.service';
 import { PlatformsComponent } from './component/platforms/platforms.component';
 import { TitleService } from './service/title.service';
@@ -30,7 +31,8 @@ import { GenreFilterComponent } from './component/genre-filter/genre-filter.comp
   providers: [
     GenreService,
     PlatformService,
-    TitleService
+    TitleService,
+    MixService
   ],
   bootstrap: [AppComponent]
 })
